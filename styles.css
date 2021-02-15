@@ -8,7 +8,82 @@ html, body, #app {
 /* Continue building out the CSS styling for your Twiddler app below! We got you started by
 providing a space for you to apply styles to your app's outermost HTML element - the #app itself. */
 
+body {
+  background-color: lightskyblue;
+}
 #app {
-  background-color: white;
   color: black;
+  height: fit-content;
+  text-align: left;
+}
+
+h1 {
+  text-align: center;
+  font-family: consolas;
+  font-size: 100px;
+}
+
+.container {
+  position: relative;
+  height: 50px;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+table {
+  width: 500px;
+  border: 2px solid grey;
+  border-radius: 12px;
+  background-color: white;
+}
+
+#update-feed {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+#back {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+.username {
+  font-family: Arial Black;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.message {
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.timestamp {
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+}
+
+#buttonlayout {
+  background-color: lightgray;
+  text-align: center;
+  border-radius: 12px;
 }
