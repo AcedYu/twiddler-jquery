@@ -8,19 +8,89 @@ html, body, #app {
 /* Continue building out the CSS styling for your Twiddler app below! We got you started by
 providing a space for you to apply styles to your app's outermost HTML element - the #app itself. */
 
-body {
-  background-color: lightskyblue;
+/* Header css */
+header {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: url('/assets/img/headerbackground.jpg');
+  width: 640px;
+  border: 1px solid white;
+  border-radius: 12px;
 }
+
+.headerwrap {
+  height: 33%;
+  left: 0;
+  right: 0;
+}
+
+h1 {
+  color: cyan;
+  text-align: center;
+  font-family: consolas;
+  font-size: 100px;
+}
+
+/* Button CSS */
+#update-feed {
+  background-color: blue;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  font-family: consolas;
+  font-size: large;
+}
+
+/* Friends List CSS */
+#friendlist {
+  position: fixed;
+  left: 6.5%;
+  text-align: left;
+  background-color: black;
+  border-radius: 12px;
+  border: 15px solid rgb(194, 241, 241);
+}
+
+h2 {
+  color: cyan;
+  text-align: center;
+  font-family: consolas;
+  font-size: 60px;
+}
+
+.listname {
+  font-family: Arial Black;
+  font-size: xx-large;
+}
+
+.listwrap {
+  left: 0;
+  right: 0;
+}
+
+ul {
+  list-style-type: none;
+  background: rgb(194, 241, 241);
+  padding: 20px;
+  border: 30px solid black;
+}
+
+/* background */
+body {
+  background-image: url('/assets/img/background.jpg');
+}
+
+/* Feed CSS */
 #app {
   color: black;
   height: fit-content;
   text-align: left;
-}
-
-h1 {
-  text-align: center;
-  font-family: consolas;
-  font-size: 100px;
+  display: inline;
 }
 
 .container {
@@ -41,28 +111,6 @@ table {
   border: 2px solid grey;
   border-radius: 12px;
   background-color: white;
-}
-
-#update-feed {
-  background-color: blue;
-  border: none;
-  color: white;
-  padding: 10px 32px;
-  text-align: center;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 12px;
-}
-
-#back {
-  background-color: blue;
-  border: none;
-  color: white;
-  padding: 10px 32px;
-  text-align: center;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 12px;
 }
 
 .username {
