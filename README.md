@@ -18,7 +18,7 @@ I implement features such as:
 
 ## Deployed Link
 
-* [See Live Site]()
+* [See Live Site](https://acedyu.github.io/twiddler-jquery/)
 
 ## Authors
 AcedYu
