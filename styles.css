@@ -13,7 +13,7 @@ header {
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
-  background-image: url('/assets/img/headerbackground.jpg');
+  background-image: url('./assets/img/headerbackground.png');
   width: 640px;
   border: 1px solid white;
   border-radius: 12px;
@@ -46,9 +46,14 @@ h1 {
   font-size: large;
 }
 
+.clientwrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /* Friends List CSS */
 #friendlist {
-  position: fixed;
+  position: absolute;
   left: 6.5%;
   text-align: left;
   background-color: black;
@@ -69,6 +74,7 @@ h2 {
 }
 
 .listwrap {
+  display: flex;
   left: 0;
   right: 0;
 }
@@ -82,7 +88,7 @@ ul {
 
 /* background */
 body {
-  background-image: url('/assets/img/background.jpg');
+  background-image: url('./assets/img/background.png');
 }
 
 /* Feed CSS */
@@ -90,7 +96,6 @@ body {
   color: black;
   height: fit-content;
   text-align: left;
-  display: inline;
 }
 
 .container {
